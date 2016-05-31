@@ -25,7 +25,6 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
     int[] intDemo = new int[]{2,3,4};
-    EnumDemo[] enumDemos = new EnumDemo[]{EnumDemo.START, EnumDemo.PAUSE, EnumDemo.END};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
