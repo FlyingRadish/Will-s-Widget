@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GoalRangeBar">
+        <attr name="main_color" format="color" />
+        <attr name="suggestion_drawable" format="color" />
+    </declare-styleable>
+</resources>

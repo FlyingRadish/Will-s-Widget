@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Will\'s Widget</string>
+    <string name="range_bar_suggested">建议</string>
+    <string name="range_bar_average">平均</string>
+    <string name="goals">目标</string>
+    <string name="gain_weight">增加</string>
+    <string name="lose_weight">增加</string>
 </resources>

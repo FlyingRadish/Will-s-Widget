@@ -9,4 +9,11 @@
     <color name="red">#F00</color>
     <color name="blue">#00f</color>
     <color name="green">#0F0</color>
+
+
+    <color name="goal_bar_connection_line">#08F</color>
+    <color name="weight_goal_bar_current_weight_anchor_line">#08F</color>
+
+    <color name="setting_activity_point">#e85d4b</color>
+    <color name="weight_color">#ff2c92d5</color>
 </resources>

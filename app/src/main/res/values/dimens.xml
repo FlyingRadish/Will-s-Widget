@@ -2,4 +2,32 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+
+
+
+
+
+
+    <dimen name="goal_range_bar_height">2dp</dimen>
+    <dimen name="goal_range_bar_connection_line_stroke_width">2dp</dimen>
+    <dimen name="goal_range_bar_suggested_text_bottom_margin">8dp</dimen>
+    <dimen name="goal_range_bar_suggested_text_size">16sp</dimen>
+    <dimen name="goal_range_bar_average_anchor_line_margin">2dp</dimen>
+    <dimen name="goal_range_bar_average_anchor_text_size">12sp</dimen>
+    <dimen name="goal_range_bar_average_anchor_line_length">16sp</dimen>
+    <dimen name="goal_range_bar_average_anchor_line_width">2sp</dimen>
+    <dimen name="goal_range_bar_thumb_circle_rad">14dp</dimen>
+
+    <dimen name="weight_goal_range_bar_current_weight_anchor_text_bottom_margin">4dp</dimen>
+    <dimen name="weight_goal_range_bar_current_weight_anchor_text_size">14sp</dimen>
+    <dimen name="weight_goal_range_bar_current_weight_anchor_line_length">20dp</dimen>
+    <dimen name="weight_goal_range_bar_thumb_line_length">24dp</dimen>
+    <dimen name="weight_goal_range_bar_thumb_line_width">2dp</dimen>
+    <dimen name="weight_goal_range_bar_thumb_line_margin_bottom">4dp</dimen>
+    <dimen name="weight_goal_range_bar_thumb_target_text_size">12sp</dimen>
+    <dimen name="weight_goal_range_bar_thumb_goal_text_size">12sp</dimen>
+    <dimen name="weight_goal_range_bar_current_weight_anchor_line_width">2dp</dimen>
 </resources>
