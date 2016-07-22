@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     tools:context="org.houxg.willswidget.MainActivity">
 
     <LinearLayout
@@ -16,6 +17,7 @@
             android:id="@+id/tv_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/red"
             tools:text="message" />
 
         <org.houxg.willswidget.widget.FlexLayout
@@ -49,63 +51,11 @@
         </org.houxg.willswidget.widget.FlexLayout>
     </LinearLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <org.houxg.willswidget.widget.CountDownView
+        android:id="@+id/count_down"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorAccent"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-            <org.houxg.willswidget.widget.rangebar.GoalRangeBar
-                android:id="@+id/range_bar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="sdlkfjsdf"/>
-
-        </LinearLayout>
-    </ScrollView>
-
-
-</LinearLayout>
+</RelativeLayout>
